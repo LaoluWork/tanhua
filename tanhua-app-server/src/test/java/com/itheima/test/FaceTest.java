@@ -30,9 +30,9 @@ public class FaceTest {
         System.out.println(detect);
     }
     //设置APPID/AK/SK
-    public static final String APP_ID = "27017208";
-    public static final String API_KEY = "cHXG7nRYvfu7lNEo2AW5GT8r";
-    public static final String SECRET_KEY = "khMGEjTgNXHyxkaD6abGvmDqYvcgQla0";
+    public static final String APP_ID = "...";
+    public static final String API_KEY = "...";
+    public static final String SECRET_KEY = "...";
 
     public static void main(String[] args) {
         // 初始化一个AipFace
