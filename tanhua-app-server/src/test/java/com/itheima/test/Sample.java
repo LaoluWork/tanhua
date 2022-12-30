@@ -10,8 +10,8 @@ public class Sample {
 
     public static void main(String[] args_) throws Exception {
 
-        String accessKeyId = "LTAI5tKLDcMRtJ7QyQKzMeGx";
-        String accessKeySecret= "oOS9EJPtVHphFqPJIO3p5ozFRZYeD6";
+        String accessKeyId = "...";
+        String accessKeySecret= "...";
 
         //配置阿里云
         Config config = new Config()
@@ -25,7 +25,7 @@ public class Sample {
         com.aliyun.dysmsapi20170525.Client client =  new com.aliyun.dysmsapi20170525.Client(config);
 
         SendSmsRequest sendSmsRequest = new SendSmsRequest()
-                .setPhoneNumbers("17876355135")
+                .setPhoneNumbers("178...")
                 .setSignName("阿里云短信测试")
                 .setTemplateCode("SMS_154950909")
                 .setTemplateParam("{\"code\":\"1234\"}");
