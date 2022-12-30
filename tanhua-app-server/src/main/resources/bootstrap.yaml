@@ -1,0 +1,24 @@
+server:
+  port: 18080
+spring:
+  profiles:
+    active: prod
+  application:
+    name: tanhua-app-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.136.160:8848
+      config:
+        server-addr: 192.168.136.160:8848
+        file-extension: yml
+
+
+#不显示那么多日志信息
+logging:
+  level:
+    com:
+      alibaba:
+        nacos:
+          client:
+            naming: warn
