@@ -26,7 +26,6 @@ public class Sample {
 
         SendSmsRequest sendSmsRequest = new SendSmsRequest()
                 .setPhoneNumbers("178...")
-                .setPhoneNumbers("178.....")
                 .setSignName("阿里云短信测试")
                 .setTemplateCode("SMS_154950909")
                 .setTemplateParam("{\"code\":\"1234\"}");
